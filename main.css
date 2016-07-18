@@ -61,3 +61,19 @@ a:visited {
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/
+
+.complimenthead {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  margin: 20px;
+}
+
+.complimenthead h3 {
+  font-size: 1.2em;
+}
+
+.complimentbody {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 40px 300px;
+}

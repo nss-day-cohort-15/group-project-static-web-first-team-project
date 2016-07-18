@@ -75,18 +75,36 @@ article {
 article h1 {
   font-family: 'Special Elite', cursive;
   text-align: center;
-  padding: 3px;
+  padding: 3px 3px;
   border: 2px solid #5c7c8e;
 }
 
 article p {
   font-family: 'Oswald', sans-serif;
+  padding: 5px;
 }
 
 article h3 {
   background: #5c7c8e;
+  padding-left: 5px;
 }
 
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/
+
+.complimenthead {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  margin: 20px;
+}
+
+.complimenthead h3 {
+  font-size: 1.2em;
+}
+
+.complimentbody {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 40px 300px;
+}

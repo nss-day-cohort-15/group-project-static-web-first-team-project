@@ -57,6 +57,23 @@ a:visited {
   text-align: center;
 }
 
+article {
+  width: 20%;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 10px;
+}
+
+article h1 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding: 3px;
+  border: 2px solid red;
+}
+
+article p {
+  color: red;
+}
 
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;

@@ -1,3 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVBAR*/
+
+.navSelected {
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#navbar {
+  background: #d1644c;
+}
+
+#navbar ul {
+  text-align: center;
+  padding: 10px;
+}
+
+#navbar ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-family: 'Special Elite', cursive;
+}
+
+#navbar a:hover {
+  box-shadow: 3px 3px 4px;
+}
+
+/*MAIN CONTENT*/
+
+#mainContent {
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.bannerHeadline {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+.companyDescription {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+article {
+  width: 20%;
+  border: 3px solid #d1644c;
+  display: inline-block;
+  margin: 10px;
+  background: transparent;
+}
+
+#products img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+article h1 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding: 3px;
+  border: 2px solid #5c7c8e;
+}
+
+article p {
+  font-family: 'Oswald', sans-serif;
+}
+
+article h3 {
+  background: #5c7c8e;
+}
+
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/

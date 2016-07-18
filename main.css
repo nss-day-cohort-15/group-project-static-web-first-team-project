@@ -40,6 +40,10 @@ a:visited {
 
 /*MAIN CONTENT*/
 
+#wrapper {
+  background-image: url("images/DD-Grunge-Background-60012-Preview.jpg");
+}
+
 #mainContent {
   width: 60%;
   margin: auto;

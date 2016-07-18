@@ -12,9 +12,6 @@ body {
 
 /*NAVBAR*/
 
-.navSelected {
-  font-weight: bold;
-}
 
 a:link {
   text-decoration: none;
@@ -23,6 +20,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 #navbar {
@@ -43,6 +41,11 @@ a:visited {
 
 #navbar a:hover {
   box-shadow: 3px 3px 4px;
+}
+
+.navSelected {
+  font-weight: bold;
+  color: blue;
 }
 
 /*MAIN CONTENT*/

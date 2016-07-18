@@ -19,7 +19,7 @@ a:visited {
 }
 
 #navbar {
-  background: red;
+  background: #d1644c;
 }
 
 #navbar ul {
@@ -59,20 +59,32 @@ a:visited {
 
 article {
   width: 20%;
-  border: 3px solid black;
+  border: 3px solid #d1644c;
   display: inline-block;
   margin: 10px;
+  background: transparent;
+}
+
+#products img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
 }
 
 article h1 {
   font-family: 'Special Elite', cursive;
   text-align: center;
   padding: 3px;
-  border: 2px solid red;
+  border: 2px solid #5c7c8e;
 }
 
 article p {
-  color: red;
+  font-family: 'Oswald', sans-serif;
+}
+
+article h3 {
+  background: #5c7c8e;
 }
 
 /*FONT INFO*/

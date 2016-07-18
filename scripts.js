@@ -1,7 +1,7 @@
 var comp1 = {
 image: "<img src='images/envelope.png'",
 name: "COMPLIMENT #1",
-description: "Your thoughts and ideas matter to me.",
+description: "Your beauty is surpassed by no living soul and easily exceeds those of Helen of Troy and Nefertiti. Wars could start to get your attention.",
 availability: "YES",
 price: "$49.99"
 }
@@ -9,7 +9,7 @@ price: "$49.99"
 var comp2 = {
 image: "<img src='images/envelope.png'",
 name: "COMPLIMENT #2",
-description: "I think the work you do is important and worthwhile.",
+description: "You are so sexy that Kanye West would interrupt an awards show to recognize you.",
 availability: "YES",
 price: "$49.99"
 }
@@ -17,7 +17,7 @@ price: "$49.99"
 var comp3 = {
 image: "<img src='images/envelope.png'",
 name: "COMPLIMENT #3",
-description: "I aspire to become more like you both personally and professionally",
+description: "Your laugh is like angels dancing on unicorns bounding across rainbows. I could listen to it every minute for the rest of my life.",
 availability: "YES",
 price: "$49.99"
 }
@@ -25,7 +25,7 @@ price: "$49.99"
 var comp4 = {
 image: "<img src='images/envelope.png'",
 name: "COMPLIMENT #4",
-description: "I consider you a mentor and confidant",
+description: "Leonardy Da Vinci would be in awe of your intelligence and creativity.",
 availability: "YES",
 price: "$49.99"
 }
@@ -33,7 +33,7 @@ price: "$49.99"
 var insult1 = {
 image: "<img src='images/envelope.png'",
 name: "INSULT #1",
-description: "It looks like you haven't washed your hair in days.",
+description: "I just love you you are not obsessed with any kind of personal style.",
 availability: "YES",
 price: "$99.99"
 }
@@ -49,7 +49,7 @@ price: "$99.99"
 var insult3 = {
 image: "<img src='images/envelope.png'",
 name: "INSULT #3",
-description: "Your last project was a massive failure and everyone noticed",
+description: "You are so laid back. I wish I was as comfortable as you are with all of the clutter in your office.",
 availability: "YES",
 price: "$99.99"
 }
@@ -71,8 +71,8 @@ function populateProducts() {
     "<article>" + productSpecs[i].image + "</img>" +
     "<h1>" + productSpecs[i].name + "</h1>" +
     "<p>" + productSpecs[i].description + "</p>" +
-    "<h3>" + productSpecs[i].availability + "</h3>" +
-    "<p>" + productSpecs[i].price + "</p>"
+    "<h3>In stock: " + productSpecs[i].availability + "</h3>" +
+    "<h4>" + productSpecs[i].price + "</h4>"
     "</article>"
   }
 }

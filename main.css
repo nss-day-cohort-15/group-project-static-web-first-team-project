@@ -44,8 +44,7 @@ a:visited {
 }
 
 .navSelected {
-  font-weight: bold;
-  color: blue;
+  box-shadow: 3px 3px 4px;
 }
 
 /*MAIN CONTENT*/
@@ -75,6 +74,9 @@ article {
   background: transparent;
 }
 
+#products {
+  padding-left: 175px;
+}
 
 #products img {
   display: block;

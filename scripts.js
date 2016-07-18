@@ -71,8 +71,8 @@ function populateProducts() {
     "<article>" + productSpecs[i].image + "</img>" +
     "<h1>" + productSpecs[i].name + "</h1>" +
     "<p>" + productSpecs[i].description + "</p>" +
-    "<h3>" + productSpecs[i].availability + "</h3>" +
-    "<p>" + productSpecs[i].price + "</p>"
+    "<h3>In stock: " + productSpecs[i].availability + "</h3>" +
+    "<h4>" + productSpecs[i].price + "</h4>"
     "</article>"
   }
 }

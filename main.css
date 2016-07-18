@@ -1,7 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-image: url("images/DD-Grunge-Background-60012-Preview.jpg");
+  background-size: cover;
+}
+
 
 /*NAVBAR*/
 
@@ -39,10 +46,6 @@ a:visited {
 }
 
 /*MAIN CONTENT*/
-
-#wrapper {
-  background-image: url("images/DD-Grunge-Background-60012-Preview.jpg");
-}
 
 #mainContent {
   width: 60%;
@@ -86,11 +89,16 @@ article h1 {
 article p {
   font-family: 'Oswald', sans-serif;
   padding: 5px;
+  height: 100px;
 }
 
 article h3 {
   background: #5c7c8e;
   padding-left: 5px;
+}
+
+article h4 {
+  padding: 10px;
 }
 
 /*FONT INFO*/

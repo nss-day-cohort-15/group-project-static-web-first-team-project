@@ -1,63 +1,63 @@
 var comp1 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME COMPLIMENT #1",
-description: "THIS IS THE DESCRIPTION FOR COMPLIMENT NUMBER 1",
+name: "COMPLIMENT #1",
+description: "Your thoughts and ideas matter to me.",
 availability: "YES",
 price: "$49.99"
 }
 
 var comp2 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME COMPLIMENT #2",
-description: "THIS IS THE DESCRIPTION FOR COMPLIMENT NUMBER 2",
+name: "COMPLIMENT #2",
+description: "I think the work you do is important and worthwhile.",
 availability: "YES",
 price: "$49.99"
 }
 
 var comp3 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME COMPLIMENT #3",
-description: "THIS IS THE DESCRIPTION FOR COMPLIMENT NUMBER 3",
+name: "COMPLIMENT #3",
+description: "I aspire to become more like you both personally and professionally",
 availability: "YES",
 price: "$49.99"
 }
 
 var comp4 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME COMPLIMENT #4",
-description: "THIS IS THE DESCRIPTION FOR COMPLIMENT NUMBER 4",
+name: "COMPLIMENT #4",
+description: "I consider you a mentor and confidant",
 availability: "YES",
 price: "$49.99"
 }
 
 var insult1 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME INSULT #1",
-description: "THIS IS THE DESCRIPTION FOR INSULT NUMBER 1",
+name: "INSULT #1",
+description: "It looks like you haven't washed your hair in days.",
 availability: "YES",
 price: "$99.99"
 }
 
 var insult2 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME INSULT #2",
-description: "THIS IS THE DESCRIPTION FOR INSULT NUMBER 2",
+name: "INSULT #2",
+description: "I'd love to integrate your ideas into my life, but they are horrible.",
 availability: "YES",
 price: "$99.99"
 }
 
 var insult3 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME INSULT #3",
-description: "THIS IS THE DESCRIPTION FOR INSULT NUMBER 3",
+name: "INSULT #3",
+description: "Your last project was a massive failure and everyone noticed",
 availability: "YES",
 price: "$99.99"
 }
 
 var insult4 = {
 image: "<img src='images/envelope.png'",
-name: "TEST NAME INSULT #4",
-description: "THIS IS THE DESCRIPTION FOR INSULT NUMBER 4",
+name: "INSULT #4",
+description: "Your face looks like genetics gave up after a few minutes",
 availability: "YES",
 price: "$99.99"
 }

@@ -1,3 +1,27 @@
+a:link {
+  text-decoration: none;
+  color: green;
+}
+
+#navbar {
+  background: red;
+}
+
+#navbar ul {
+  text-align: center;
+}
+
+#navbar ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+#navbar a:hover {
+  box-shadow: 3px 3px 4px;
+}
+
+
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/

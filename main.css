@@ -113,6 +113,10 @@ article {
   padding: 10px;
 }
 
+article {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 article h1 {
   font-family: 'Special Elite', cursive;
   text-align: center;
@@ -141,10 +145,6 @@ input[type=email]:valid {
 
 input[type=email]:invalid {
   border: 3px solid red;
-}
-
-input{} {
-  border: none;
 }
 
 /*FONT INFO*/

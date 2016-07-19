@@ -8,18 +8,34 @@
 <body>
 
 <div id="bannerImage">
-
-
+<h1 class="bannerLogoName">Make My Day</h1>
 </div>
 
 <nav id="navbar">
   <ul>
-    <li class="navSelected"><a href="index.html">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="compliments.html">Compliments</a></li>
-    <li><a href="insults.html">Insults</a></li>
-    <li><a href="products.html">Products</a></li>
+    <li><a href="insults.html">Backhand</a></li>
+    <li><a href="products.html" class="navSelected">Products</a></li>
     </ul>
 </nav>
+
+<h1 class="bannerHeadline">Products</h1>
+
+<form class="emailField">
+  <p><input type="email" name="toEmail" placeholder="To:"></p>
+  <p><input type="email" name="fromEmail" placeholder="From:"></p>
+  <label><input type="checkbox" name="compliment1">Compliment 1</label>
+  <label><input type="checkbox" name="compliment2">Compliment 2</label>
+  <label><input type="checkbox" name="compliment3">Compliment 3</label>
+  <label><input type="checkbox" name="compliment4">Compliment 4</label><br>
+
+  <label><input type="checkbox" name="insult1">Backhand 1</label>
+  <label><input type="checkbox" name="insult2">Backhand 2</label>
+  <label><input type="checkbox" name="insult3">Backhand 3</label>
+  <label><input type="checkbox" name="insult4">Backhand 4</label><br>
+  <input type="submit" name="submitButton">
+</form>
 
 <div id="wrapper">
 

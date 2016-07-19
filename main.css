@@ -1,22 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/DD-Grunge-Background-60012-Preview.jpg");
+  background-size: cover;
 }
 
 #bannerImage {
-  background-image: url("images/MMDlogo.png");
-  background-size: cover;
-  min-height: 200px;
-  height: 200px;
-  width: 100%;
+  background: #5c7c8e;
 }
-
 
 /*NAVBAR*/
 
-.navSelected {
-  font-weight: bold;
-}
 
 a:link {
   text-decoration: none;
@@ -25,6 +23,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 #navbar {
@@ -47,11 +46,11 @@ a:visited {
   box-shadow: 3px 3px 4px;
 }
 
-/*MAIN CONTENT*/
-
-#wrapper {
-  background-image: url("images/DD-Grunge-Background-60012-Preview.jpg");
+.navSelected {
+  box-shadow: 3px 3px 4px;
 }
+
+/*MAIN CONTENT*/
 
 #mainContent {
   width: 60%;
@@ -65,9 +64,31 @@ a:visited {
   padding: 20px;
 }
 
+.bannerLogoName {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
 .companyDescription {
   font-family: 'Oswald', sans-serif;
   text-align: center;
+}
+
+.emailField {
+  display: block;
+  text-align: center;
+}
+
+.inStock {
+  color: lightgreen;
+  text-shadow: 1px 1px;
+}
+
+.outStock {
+  color: red;
+  text-shadow: 1px 1px;
 }
 
 article {
@@ -78,11 +99,18 @@ article {
   background: transparent;
 }
 
+#products {
+/*  padding-left: 175px;*/
+  display: inline-block;
+  text-align: center;
+}
+
 #products img {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 80%;
   height: auto;
+  padding: 10px;
 }
 
 article h1 {
@@ -95,6 +123,7 @@ article h1 {
 article p {
   font-family: 'Oswald', sans-serif;
   padding: 5px;
+  height: 100px;
 }
 
 article h3 {
@@ -102,22 +131,22 @@ article h3 {
   padding-left: 5px;
 }
 
+article h4 {
+  padding: 10px;
+}
+
+input[type=email]:valid {
+  border: 3px solid green;
+}
+
+input[type=email]:invalid {
+  border: 3px solid red;
+}
+
+input{} {
+  border: none;
+}
+
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/
-
-.complimenthead {
-  font-family: "Special Elite", cursive;
-  text-align: center;
-  margin: 20px;
-}
-
-.complimenthead h3 {
-  font-size: 1.2em;
-}
-
-.complimentbody {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  margin: 40px 300px;
-}

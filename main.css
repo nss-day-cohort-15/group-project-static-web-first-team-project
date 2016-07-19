@@ -76,9 +76,35 @@ a:visited {
   text-align: center;
 }
 
+.floatLeft{
+  float: right;
+  display: inline-block;
+}
+
+.floatRight {
+  float: right;
+  border-radius: 70%;
+}
+
 .emailField {
   display: block;
   text-align: center;
+}
+
+.angryPic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.catPic {
+  width: 300px;
+  position: fixed;
+  top: 180px;
+  left: 10px;
+  float: left;
+/*  display: inline-block;*/
 }
 
 .inStock {

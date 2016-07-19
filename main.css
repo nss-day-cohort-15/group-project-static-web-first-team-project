@@ -80,7 +80,9 @@ article {
 }
 
 #products {
-  padding-left: 175px;
+/*  padding-left: 175px;*/
+  display: inline-block;
+  text-align: center;
 }
 
 #products img {

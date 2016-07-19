@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+#bannerImage {
+  background-image: url("images/MMDlogo.png");
+  background-size: cover;
+  min-height: 200px;
+  height: 200px;
+  width: 100%;
+}
+
+
 /*NAVBAR*/
 
 .navSelected {

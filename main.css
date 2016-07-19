@@ -81,6 +81,16 @@ a:visited {
   text-align: center;
 }
 
+.inStock {
+  color: lightgreen;
+  text-shadow: 1px 1px;
+}
+
+.outStock {
+  color: red;
+  text-shadow: 1px 1px;
+}
+
 article {
   width: 20%;
   border: 3px solid #d1644c;

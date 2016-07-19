@@ -96,7 +96,7 @@ article {
   border: 3px solid #d1644c;
   display: inline-block;
   margin: 10px;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #products {
@@ -110,10 +110,6 @@ article {
   width: 80%;
   height: auto;
   padding: 10px;
-}
-
-article {
-  background: rgba(0, 0, 0, 0.3);
 }
 
 article h1 {

@@ -9,6 +9,9 @@ body {
   background-size: cover;
 }
 
+#bannerImage {
+  background: #5c7c8e;
+}
 
 /*NAVBAR*/
 
@@ -59,6 +62,13 @@ a:visited {
   font-family: 'Special Elite', cursive;
   text-align: center;
   padding: 20px;
+}
+
+.bannerLogoName {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
 }
 
 .companyDescription {

@@ -112,6 +112,18 @@ article h4 {
   padding: 10px;
 }
 
+input[type=email]:valid {
+  border: 3px solid green;
+}
+
+input[type=email]:invalid {
+  border: 3px solid red;
+}
+
+input{} {
+  border: none;
+}
+
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/

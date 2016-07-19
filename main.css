@@ -66,6 +66,11 @@ a:visited {
   text-align: center;
 }
 
+.emailField {
+  display: block;
+  text-align: center;
+}
+
 article {
   width: 20%;
   border: 3px solid #d1644c;
@@ -110,19 +115,3 @@ article h4 {
 /*FONT INFO*/
 /*font-family: 'Special Elite', cursive;
 font-family: 'Oswald', sans-serif;*/
-
-.complimenthead {
-  font-family: "Special Elite", cursive;
-  text-align: center;
-  margin: 20px;
-}
-
-.complimenthead h3 {
-  font-size: 1.2em;
-}
-
-.complimentbody {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  margin: 40px 300px;
-}

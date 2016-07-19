@@ -62,7 +62,6 @@ availability: "YES",
 price: "$99.99"
 }
 
-
 var productSpecs = [comp1, comp2, comp3, comp4, insult1, insult2, insult3, insult4]
 
 function populateProducts() {
@@ -71,7 +70,7 @@ function populateProducts() {
     "<article>" + productSpecs[i].image + "</img>" +
     "<h1>" + productSpecs[i].name + "</h1>" +
     "<p>" + productSpecs[i].description + "</p>" +
-    "<h3>In stock: " + productSpecs[i].availability + "</h3>" +
+    "<h3>Availability: " + productSpecs[i].availability + "</h3>" +
     "<h4>" + productSpecs[i].price + "</h4>"
     "</article>"
   }

@@ -13,35 +13,103 @@
 
 <nav id="navbar">
   <ul>
-    <li><a href="index.html" class="navSelected">Home</a></li>
-    <li><a href="compliments.html">Compliments</a></li>
-    <li><a href="insults.html">Backhand</a></li>
-    <li><a href="products.html">Products</a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#compliments">Compliments</a></li>
+    <li><a href="#insults">Backhand</a></li>
+    <li><a href="#productsL">Products</a></li>
     </ul>
 </nav>
 
+<div id="home" class="page hidden"> 
 
-<div id="mainContent">
+  <div id="mainContent">
 
-<h1 class="bannerHeadline">Go Ahead... Make My Day</h1>
+    <h1 class="bannerHeadline">Go Ahead... Make My Day</h1>
 
-<p class="companyDescription">Make My Day is a boutique compliment, backhanded compliment, and straight up insult service. Our experienced associates travel the world searching for the perfect words to match your intentions. From the top of Mt. Fuji to the beaches of Fiji and everywhere in between, we seek out and bring you the highest quality!
-<br>
-<br>
-We specialize in only the most unique compliments and the most vicious insults so you don't have to worry about giving out the routine compliments or insults that we hear, or say, daily. Surprise your loved ones, or enemies, with high class commentary!
-<br>
-<br>
-For more information on making someone else's day, head to our <a href="compliments.html">Compliments</a> page.
-<br>
-<br>
-To make your own day by bringing someone else down, head to our <a href="insults.html">Backhand Compliments</a> page</p>
+    <p class="companyDescription">Make My Day is a boutique compliment, backhanded compliment, and straight up insult service. Our experienced associates travel the world searching for the perfect words to match your intentions. From the top of Mt. Fuji to the beaches of Fiji and everywhere in between, we seek out and bring you the highest quality!
+    <br>
+    <br>
+    We specialize in only the most unique compliments and the most vicious insults so you don't have to worry about giving out the routine compliments or insults that we hear, or say, daily. Surprise your loved ones, or enemies, with high class commentary!
+    <br>
+    <br>
+    For more information on making someone else's day, head to our <a href="compliments.html">Compliments</a> page.
+    <br>
+    <br>
+    To make your own day by bringing someone else down, head to our <a href="insults.html">Backhand Compliments</a> page</p>
 
-<!-- MAIN CONTENT DIV -->
+    <!-- MAIN CONTENT DIV -->
+  </div>
+
+    <img src="images/cat.png" class="catPic">
+
 </div>
 
-<img src="images/cat.png" class="catPic">
+<div id="compliments" class="page hidden">
+
+  <img src="images/happy.png" class="floatLeft">
+    <div id="mainContent">
+      <h1 class="bannerHeadline">Go Ahead... Make My Day</h1>
+      <section class="companyDescription">
+        <p>We at Make My Day believe that affirmations help us face our lives with confidence and courage. Compliments add to the suit of armor that shelters our souls from the rigors of the daily grind and give us the courage to face new challenges with our best foot forward. Our associates travel the world searching for just the right compliments and pride ourselves in providing the most fitting compliment to meet your needs. So, send someone in your life a the perfect compliment to help them as they journey through their day. If you would like to send someone a compliment, please see our soulful offerings on the products page.</p>
+        <br>
+        <p>Perhaps you have not received a compliment lately and just need a little boost. You can send a compliment to yourself and feel the soothing protection of another layer of positive affirmation on your sensitive soul: a priveleged reminder how what a wonderful human being your are and the difference you  make daily.</p>
+        <br>
+        <p>or, perhaps compliments are not your goal right now. If you would like to send someone a backhanded compliment, please see our flavorful offerings on the products page.</p>
+      </section>
+    </div>
+  </div>
+
+
+<div id="insults" class="page hidden">
+
+    <div id="mainContent">
+
+
+    <h1 class="bannerHeadline">Go Ahead... Make My Day</h1>
+    <p class="companyDescription">So by now you've probably perused our list of compliments and got that ego boost you needed to make it through the day...
+    perhaps compliments are not your goal right now. Perhaps your ego-driven coworker needs to be politely reminded of their fallability or a hurtful spouse needs to understand your anger.</p>
+    <br>
+    <p class="companyDescription">Lets fix that by sending your "favorite" person one of our flavorful, baby powder covered, bonafide backhanded compliments, or a straight up insult, and make your own day!</p>
+    <br>
+    </div>
+
+    <img src="images/angry.gif" class="angryPic">
+
+</div>
+
+
+<div id="productsL" class="page hidden">
+
+      <h1 class="bannerHeadline">Products</h1>
+
+    <form class="emailField">
+    <h3 class="correctFont">Email Addresses</h3>
+      <p><input type="email" name="toEmail" placeholder="To:"></p>
+      <p><input type="email" name="fromEmail" placeholder="From:"></p>
+
+    <h3 class="correctFont">Select Your Message</h3>
+
+      <label><input type="checkbox" name="compliment1">Compliment 1</label>
+      <label><input type="checkbox" name="compliment2">Compliment 2</label>
+      <label><input type="checkbox" name="compliment3">Compliment 3</label>
+      <label><input type="checkbox" name="compliment4">Compliment 4</label><br>
+
+      <label><input type="checkbox" name="insult1">Backhand 1</label>
+      <label><input type="checkbox" name="insult2">Backhand 2</label>
+      <label><input type="checkbox" name="insult3">Backhand 3</label>
+      <label><input type="checkbox" name="insult4">Backhand 4</label><br>
+      <input type="submit" name="submitButton">
+    </form>
+
+    <div id="products"></div>
+
+</div>
+
+
 
 <footer><h4 class="correctFont">Contact Us: <a href="mailto:makemyday@gmail.com"><span class="styledLink">makemyday@gmail.com</a></span></h4></footer>
+
+<script type="text/javascript" src="scripts.js" ></script>
 
 </body>
 </html>
